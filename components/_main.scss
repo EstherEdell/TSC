@@ -1,0 +1,87 @@
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topNav ul {
+    list-style-type: none;
+    padding:0;
+    li {
+        
+        display: inline-block;
+        padding: 15px;
+    }
+    a {
+        color: white;
+        text-transform: uppercase;
+        font-family: $montserrat;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+        &:hover {
+            border-bottom:5px double white;
+        }
+    }
+}
+header {
+
+    // min-height: 500px;
+    background:$mainGreen;
+}
+.hero {
+    padding-bottom:25px;
+    h1 {
+        text-align: center;
+        font-size: 48px;
+    }
+    p {
+        padding: 10px 0;
+    }
+    a {
+        display:inline-block;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 15px 25px;
+        color:black;
+        transition: all 0.3s ease;
+        background:white;
+        &:hover {
+            background:rgba(255,255,255, 0.5);
+        }
+    }
+}
+
+.introduction {
+    font-family: $montserrat;
+    margin-top: 100px;
+    border-bottom: 1px solid $mainGreen;
+    em {
+        font-weight: 300;
+    }
+}
+.donate a {
+    color:black;
+    border:2px solid black;
+    padding:15px 30px;
+    display: inline-block;
+    margin-bottom:50px;
+}
+.location {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: $montserrat;
+    h3 {
+        text-transform: uppercase;
+    }
+    ul {
+        list-style-type: none;
+        padding:0;
+    }
+    li {
+        line-height: 28px;
+    }
+}
+.location-map {
+    max-width:500px;
+    width:100%;
+}
