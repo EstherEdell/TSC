@@ -136,9 +136,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
+  background: #ffffff80; }
 
 .about-menu {
   position: relative; }
@@ -159,7 +157,13 @@ header nav {
 
 .main-nav {
   list-style-type: none;
-  padding: 0; }
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
   .main-nav li {
     display: inline-block;
     padding: 15px; }
@@ -176,46 +180,48 @@ header {
   background: #63d034; }
 
 .hero {
-  padding-bottom: 25px; }
+  padding: 100px 0; }
   .hero h1 {
     text-align: center;
     font-size: 48px; }
   .hero p {
     padding: 10px 0; }
-  .hero a {
-    display: inline-block;
-    text-decoration: none;
-    border: 2px solid black;
-    padding: 15px 25px;
-    color: black;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background: white; }
-    .hero a:hover {
-      background: rgba(255, 255, 255, 0.5); }
+
+.main-left-photo {
+  -ms-flex-item-align: center;
+  align-self: center; }
+  .main-left-photo img {
+    width: 100%;
+    display: block; }
+
+main {
+  border-bottom: 1px solid #63d034; }
 
 .introduction {
   font-family: "Montserrat", "Helvetica", sans-serif;
-  margin-top: 100px;
-  border-bottom: 1px solid #63d034;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
   text-align: center;
   font-size: 18px; }
-  .introduction strong {
-    font-weight: 300; }
+  .introduction p {
+    padding: 0 20px; }
+
+.hours p {
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  margin: 100px 0;
+  line-height: 32px; }
 
 .donate a {
   color: black;
-  border: 2px solid black;
-  padding: 15px 30px;
   display: inline-block;
-  margin-bottom: 50px;
-  border-radius: 10px;
-  -webkit-transition: all ease-in-out 0.2s;
-  -o-transition: all ease-in-out 0.2s;
-  transition: all ease-in-out 0.2s; }
-  .donate a:hover {
-    background: #63d034; }
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 15px; }
 
 .location {
   margin-top: 50px;

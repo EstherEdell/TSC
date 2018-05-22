@@ -1,0 +1,22 @@
+
+.location {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: $montserrat;
+    h3 {
+        text-transform: uppercase;
+    }
+    ul {
+        list-style-type: none;
+        padding:0;
+    }
+    li {
+        line-height: 28px;
+    }
+}
+.location-map {
+    max-width:500px;
+    width:100%;
+}
+
