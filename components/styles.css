@@ -206,7 +206,7 @@ main {
   text-align: center;
   font-size: 18px; }
   .introduction p {
-    padding: 0 20px; }
+    padding: 0 30px; }
 
 .hours p {
   font-family: "Montserrat", "Helvetica", sans-serif;
@@ -220,8 +220,82 @@ main {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 22px;
-  margin-top: 15px; }
+  font-size: 20px;
+  padding: 15px; }
+  .donate a:hover, .donate a:focus {
+    color: #63d034; }
+
+.mission-header h2 {
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin: 100px 0; }
+  .mission-header h2:after {
+    content: '';
+    height: 2px;
+    width: 50%;
+    display: block;
+    background: #63d034;
+    position: absolute;
+    right: 25%;
+    margin-top: 15px; }
+
+.tsc-mission {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px 0; }
+
+.mission-mandate {
+  font-family: "Montserrat", "Helvetica", sans-serif; }
+  .mission-mandate p {
+    line-height: 32px; }
+  .mission-mandate img {
+    display: block;
+    width: 100%; }
+
+.mission-info {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.mandate-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px; }
+  .mandate-info p, .mandate-info h3 {
+    padding: 0 15px; }
+
+blockquote {
+  text-align: center;
+  font-family: "Roboto", "Arial", sans-serif; }
+  blockquote p {
+    font-size: 22px; }
+  blockquote span {
+    font-size: 16px;
+    font-style: italic; }
+
+.recovery-section {
+  padding: 50px 0; }
+
+.recovery-block {
+  border: 2px solid #63d034;
+  margin: 15px 0;
+  padding: 15px 25px;
+  -webkit-box-shadow: 1px 1px 2px 0px #63d034;
+  box-shadow: 1px 1px 2px 0px #63d034;
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  line-height: 32px; }
+  .recovery-block h3 {
+    text-transform: uppercase; }
+
+.recovery-img img {
+  max-width: 500px; }
+  .recovery-img img img {
+    display: block; }
 
 .location {
   margin-top: 50px;

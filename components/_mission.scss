@@ -1,0 +1,50 @@
+.mission-header h2 {
+    font-family:$montserrat; 
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin:100px 0;
+    &:after {
+        content:'';
+        height:2px;
+        width:50%;
+        display: block;
+        background:$mainGreen;
+        position: absolute;
+        right:25%;
+        margin-top: 15px;
+    }
+}
+
+.tsc-mission  {
+    margin:0 auto;
+    max-width:400px;
+    width:100%;
+    padding:20px 0;
+}
+
+.mission-mandate {
+    font-family: $montserrat;
+    p {
+        line-height: 32px;
+
+    }
+    img {
+        display: block;
+        width:100%;
+    }
+}
+.mission-info{
+    margin-top:100px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.mandate-info {
+    display: flex;
+    padding-bottom: 50px;
+    p, h3 {
+        padding:0 15px;
+    }
+}

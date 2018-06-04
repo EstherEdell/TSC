@@ -1,0 +1,32 @@
+blockquote {
+    text-align: center;
+    font-family: $roboto;
+    p {
+        font-size: 22px;
+    }
+    span {
+        font-size: 16px;
+        font-style: italic;
+    }
+}
+.recovery-section {
+    padding:50px 0;
+
+}
+.recovery-block {
+    border:2px solid $mainGreen;
+    margin:15px 0;
+    padding:15px 25px;
+    box-shadow: 1px 1px 2px 0px $mainGreen;
+    font-family: $montserrat;
+    line-height: 32px;
+    h3 {
+        text-transform: uppercase;
+    }
+}
+.recovery-img img {
+    max-width:500px;
+    img {
+        display:block;
+    }
+}
